@@ -1,0 +1,39 @@
+.title {
+    margin-left: 2rem;
+font-size: 4rem;
+}
+
+.form {
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+
+.input {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    display: block;
+    font-size: 2rem;
+    
+    padding: 0.5rem;
+    color: blue;
+}
+
+.button {
+    display: block;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 7%;
+    border: none;
+    background-color: darkgray;
+    cursor: pointer;
+
+    &:hover,
+    :focus{
+        background-color: cadetblue;
+        color: aliceblue;
+    }
+
+    
+
+}
